@@ -11,7 +11,7 @@ export default function Footer() {
           <li className={styles.item}><Link href="/contact">お問い合わせ</Link></li>
         </ul>
       </nav>
-      <p className={styles.cr}>&copy; SAMPLE. ALL Rights Reserved 2024</p>
+      <p className={styles.cr}>&copy; sasakure. all rights reserved 2025.</p>
     </footer>
   )
 }
