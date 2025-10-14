@@ -51,3 +51,9 @@
 .empty {
   margin-bottom: 40px;
 }
+
+@media (max-width: 640px) {
+    .list {
+      display: block; 
+    }
+}

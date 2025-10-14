@@ -4,6 +4,12 @@
   width: 840px;
   margin: -40px auto 0;
   padding: 80px;
-  /* border: 2px solid #000; */
   border-radius: 8px;
+}
+
+@media (max-width: 640px) {
+    .container {
+    width: 90%;
+    padding: 40px;
+    }
 }
