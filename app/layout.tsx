@@ -5,21 +5,21 @@ import Footer from "./_componets/Footer";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://my-next-project2-xi.vercel.app'),
+  metadataBase: new URL('https://my-next-project-git-main-yuuki-saitos-projects.vercel.app/'),
   title: {
-    template: '%s | シンプルなコーポレートサイト',
-    default: 'シンプルなコーポレートサイト',
+    template: '%s | ささくれ',
+    default: 'ささくれ',
   },
   description:
-    '「Next.js＋ヘッドレスCMSではじめる！ かんたん・モダンWebサイト制作入門」で作成されるサイトです。',
+    'ささくれのWEBサイトです',
   openGraph: {
-    title: 'シンプルなコーポレートサイト',
+    title: 'ささくれ',
     description:
-      '「Next.js＋ヘッドレスCMSではじめる！ かんたん・モダンWebサイト制作入門」で作成されるサイトです。',
+      'ささくれのWEBサイトです',
     images: ['/ogp.png'],
   },
   alternates: {
-    canonical: 'https://my-next-project2-xi.vercel.app',
+    canonical: 'https://my-next-project-git-main-yuuki-saitos-projects.vercel.app/',
   },
 };
 

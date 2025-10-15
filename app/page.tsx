@@ -12,7 +12,7 @@ export default async function Home() {
       <section className={styles.top} >
         <div>
           <h1 className={styles.title}>変えるために 変わってゆけ。</h1>
-          <p className={styles.discription}>私たちはスモールビジネスを応援するクリエイター集団です</p>
+          <p className={styles.discription}>私たちはスモールビジネスを応援するクリエイターユニットです</p>
         </div>
         <Image className={styles.bgimg} src="/94598.jpg" alt="" width={4000} height={1200} priority sizes="100vw" />
       </section>

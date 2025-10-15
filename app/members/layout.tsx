@@ -1,5 +1,3 @@
-// import Sheet from "@/app/_componets/sheet";
-// import Hero from "@/app/_componets/Hero";
 import Sheet from "../_componets/sheet";
 import Hero from "../_componets/Hero";
 
