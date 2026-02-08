@@ -10,17 +10,10 @@ export default async function Home() {
   return (
     <>
       <section className={styles.top} >
-        <div>
-          {/* <h1 className={styles.title}>Yuki Saito</h1>
-          <p className={styles.discription}>僕に言葉を　君の鼻歌を</p> */}
-          {/* <div>
-            <Image src="/photograph-beach-06.png" alt="" width={400} height={300} priority sizes="400px" />
-          </div> */}
-        </div>
         <Image className={styles.bgimg} src="/bg-index.jpg" alt="" width={4000} height={1200} priority sizes="100vw" />
-      </section>
-      <section className={styles.news}>
-        <Image src="/photograph-beach-06.png" alt="" className={styles.photograph} width={0} height={0} priority sizes="100%" />
+        <div className={styles.news}>
+          <Image src="/photograph-beach-06.png" alt="" className={styles.photograph} width={0} height={0} priority sizes="100%" />
+        </div>
       </section>
     </>
   );

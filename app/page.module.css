@@ -5,8 +5,10 @@
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
-  overflow: hidden;
-  padding: 400px 0;
+  /* overflow: hidden; */
+  /* padding: 400px 0; */
+  height: 100vh;
+  /* z-index: -1; */
 }
 
 /* .title {
@@ -41,13 +43,13 @@
 }
 
 .news {
-  position: absolute;
+  position: relative;
   background-color: #fff;
   width: 840px;
-  top: 15%;
-  left: 20%;
+  margin: 0 auto;
   padding: 10px;
   border-radius: 8px;
+  z-index: 1;
 }
 
 /* .newsTitle {
