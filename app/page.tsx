@@ -11,17 +11,16 @@ export default async function Home() {
     <>
       <section className={styles.top} >
         <div>
-          <h1 className={styles.title}>変えるために 変わってゆけ。</h1>
-          <p className={styles.discription}>私たちはスモールビジネスを応援するクリエイターユニットです</p>
+          {/* <h1 className={styles.title}>Yuki Saito</h1>
+          <p className={styles.discription}>僕に言葉を　君の鼻歌を</p> */}
+          {/* <div>
+            <Image src="/photograph-beach-06.png" alt="" width={400} height={300} priority sizes="400px" />
+          </div> */}
         </div>
-        <Image className={styles.bgimg} src="/94598.jpg" alt="" width={4000} height={1200} priority sizes="100vw" />
+        <Image className={styles.bgimg} src="/bg-index.jpg" alt="" width={4000} height={1200} priority sizes="100vw" />
       </section>
       <section className={styles.news}>
-        <h2 className={styles.newsTitle}>News</h2>
-        <NewsList news={data.contents} />
-        <div className={styles.newsLink}>
-          <ButtonLink href="/news">もっとみる</ButtonLink>
-        </div>
+        <Image src="/photograph-beach-06.png" alt="" className={styles.photograph} width={0} height={0} priority sizes="100%" />
       </section>
     </>
   );

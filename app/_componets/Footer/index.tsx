@@ -4,14 +4,14 @@ import styles from "./index.module.css";
 export default function Footer() {
   return (
     <footer className={styles.footer}>
-      <nav className={styles.nav}>
+      {/* <nav className={styles.nav}>
         <ul className={styles.items}>
           <li className={styles.item}><Link href="/news">ニュース</Link></li>
           <li className={styles.item}><Link href="/members">メンバー</Link></li>
           <li className={styles.item}><Link href="/contact">お問い合わせ</Link></li>
         </ul>
-      </nav>
-      <p className={styles.cr}>&copy; sasakure. all rights reserved 2025.</p>
+      </nav> */}
+      <p className={styles.cr}>&copy; yuki-saito. all rights reserved 2026.</p>
     </footer>
   )
 }

@@ -13,8 +13,9 @@
 }
 
 .logo {
-  height: 24px;
+  height: auto;
   width: auto;
+  color: #fff;
 }
 
 @media(max-width) {
