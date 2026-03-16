@@ -7,15 +7,15 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 export const metadata: Metadata = {
   metadataBase: new URL('https://my-next-project-git-main-yuuki-saitos-projects.vercel.app/'),
   title: {
-    template: '%s | ささくれ',
-    default: 'ささくれ',
+    template: '%s | yuuki saito',
+    default: 'yuuki saito',
   },
   description:
-    'ささくれのWEBサイトです',
+    'yuuki saitoのWEBサイトです',
   openGraph: {
-    title: 'ささくれ',
+    title: 'yuuki saito',
     description:
-      'ささくれのWEBサイトです',
+      'yuuki saitoのWEBサイトです',
     images: ['/ogp.png'],
   },
   alternates: {

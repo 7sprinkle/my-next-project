@@ -9,7 +9,7 @@ export default function Header() {
     <header className={styles.header}>
       <Link href="/" className={styles.logoLink}>
         {/* <Image src="/like_a_logo.png" alt="SMPLE" className={styles.logo} width={348} height={133} priority /> */}
-        <div className={styles.logo}>Yuki Saito</div>
+        <div className={styles.logo}>Yuuki Saito</div>
       </Link>
       <Menu />
     </header>
