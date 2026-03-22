@@ -9,13 +9,11 @@ import { NEWS_LIST_LIMIT } from "./_constants/index";
 
 export default async function Home() {
   const { contents: news, totalCount } = await getNewsList({ limit: 1, })
-  // const data = await getNewsList({ limit: TOP_NEWS_LIMIT, });
   return (
     <>
       <section className={styles.top} >
         <Image className={styles.bgimg} src="/bg-index.jpg" alt="" width={4000} height={1200} priority sizes="100vw" />
         <div className={styles.news}>
-          {/* <Image src="/photograph-beach-06.png" alt="" className={styles.photograph} width={0} height={0} priority sizes="100%" /> */}
           <NewsList news={news} />
         </div>
       </section>
