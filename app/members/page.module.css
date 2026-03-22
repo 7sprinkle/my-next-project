@@ -15,7 +15,7 @@
 }
 
 .images {
-  width: 240px;
+  width: 100%;
   height: auto;
   border-radius: var(--border-radius);
 }
