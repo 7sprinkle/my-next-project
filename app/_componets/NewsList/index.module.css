@@ -15,8 +15,8 @@
 
 .image {
   /* width: 200px; */
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100vh;
   /* border-radius: var(--border-radius); */
 }
 
