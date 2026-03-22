@@ -17,12 +17,12 @@
     display: block;
     position: fixed;
     top: 0;
-    left: 0;
+    left: 50%;
     right: 0;
     bottom: 0;
-    background-color: var(--color-bg-painted);
+    background-color: #00000080;
     color: var(--color-text-unpainted);
-    padding: 24px 16px;
+    padding: 80px 30px;
   }
 
   .items {
