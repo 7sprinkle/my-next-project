@@ -53,9 +53,9 @@
 }
 
 @media (max-width: 640px) {
-  .list {
-    /* display: block; */
-  }
+  /* .list {
+    display: block;
+  } */
 
   .footer {
     gap: 0;
