@@ -70,21 +70,15 @@
     z-index: -1;
   }
 
-  /* 
-  .news {
-    width: auto;
-    height: 100vh;
-  } */
-
-  .image {
-    width: auto;
-    height: 100vh;
-  }
-
   .newsLink {
     position: relative;
     right: auto;
     bottom: auto;
     margin-top: 16px;
+  }
+
+  .NewsList_image__Wnt8Q {
+    width: auto;
+    height: 100vh;
   }
 }
