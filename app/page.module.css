@@ -80,5 +80,7 @@
     right: auto;
     bottom: auto;
     margin-top: 16px;
+    width: 100%;
+    height: auto;
   }
 }
