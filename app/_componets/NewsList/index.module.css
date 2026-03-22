@@ -33,10 +33,10 @@
 }
 
 @media(max-width:640px) {
-  .link {
+  /* .link {
     display: block;
     padding: 16px 0;
-  }
+  } */
 
   /* .image {
     display: none;
