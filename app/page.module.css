@@ -70,7 +70,13 @@
     z-index: -1;
   }
 
+  /* 
   .news {
+    width: auto;
+    height: 100vh;
+  } */
+
+  .image {
     width: auto;
     height: 100vh;
   }
