@@ -24,13 +24,13 @@ export default function NewsList({ news }: Props) {
               ) : (
                 <Image className={styles.image} src="/no-image.png" alt="No Image" width={1200} height={630} />
               )}
-              <dl className={styles.content}>
+              {/* <dl className={styles.content}>
                 <dt className={styles.title}>{article.title}</dt>
                 <dd className={styles.meta}>
                   <Category category={article.category} />
                   <Date date={article.publishedAt ?? article.createdAt} />
                 </dd>
-              </dl>
+              </dl> */}
             </div>
           </Link>
         </li>

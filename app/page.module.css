@@ -45,22 +45,22 @@
 .news {
   position: relative;
   background-color: #fff;
-  width: 840px;
+  width: auto;
   margin: 0 auto;
-  padding: 10px;
+  /* padding: 10px; */
   border-radius: 8px;
   z-index: 1;
 }
 
-/* .newsTitle {
+.newsTitle {
   font-size: 1.5rem;
-} */
+}
 
-/* .newsLink {
+.newsLink {
   position: absolute;
   right: -40px;
   bottom: -40px;
-} */
+}
 
 @media (max-width: 1000px) {
   .news {

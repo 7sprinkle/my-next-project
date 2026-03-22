@@ -4,15 +4,19 @@ import { getNewsList } from "./_libs/microcms";
 import { TOP_NEWS_LIMIT } from "./_constants";
 import NewsList from "./_componets/NewsList";
 import ButtonLink from "./_componets/ButtonLink";
+import { News } from "@/app/_libs/microcms";
+import { NEWS_LIST_LIMIT } from "./_constants/index";
 
 export default async function Home() {
-  const data = await getNewsList({ limit: TOP_NEWS_LIMIT, });
+  const { contents: news, totalCount } = await getNewsList({ limit: 1, })
+  // const data = await getNewsList({ limit: TOP_NEWS_LIMIT, });
   return (
     <>
       <section className={styles.top} >
         <Image className={styles.bgimg} src="/bg-index.jpg" alt="" width={4000} height={1200} priority sizes="100vw" />
         <div className={styles.news}>
-          <Image src="/photograph-beach-06.png" alt="" className={styles.photograph} width={0} height={0} priority sizes="100%" />
+          {/* <Image src="/photograph-beach-06.png" alt="" className={styles.photograph} width={0} height={0} priority sizes="100%" /> */}
+          <NewsList news={news} />
         </div>
       </section>
     </>
