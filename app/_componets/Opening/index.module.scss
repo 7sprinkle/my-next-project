@@ -27,6 +27,17 @@
     }
 }
 
+.svgwrap {
+    // width: 60%;
+    // display: block;
+}
+
+@media(max-width:640px) {
+    // .svg {
+    //     width: 100%;
+    // }
+}
+
 @keyframes handwriting {
     0% {
         stroke-dashoffset: 4000px;
