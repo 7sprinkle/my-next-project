@@ -27,13 +27,18 @@
   height: 100%;
 }
 
+
+.container {
+  max-width: 60%;
+}
+
 .news {
   position: relative;
-  background-color: #fff;
-  width: auto;
+  /* background-color: #fff; */
+  width: 80%;
   margin: 0 auto;
   border-radius: 8px;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .newsTitle {
