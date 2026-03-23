@@ -15,7 +15,7 @@ export default async function About() {
         <ul>
           {data.contents.map((member) => (
             <li key={member.id} className={styles.list}>
-              <Image src={member.image.url} alt="profile" width="260" height="260" />
+              <Image src={member.image.url} alt="profile" className={styles.img} width="260" height="260" />
               <dl>
                 <dd className={styles.name}>{member.name}</dd>
                 <dd className={styles.position}>{member.position}</dd>
