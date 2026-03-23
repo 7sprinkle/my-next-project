@@ -34,11 +34,9 @@
 
 .about {
   position: relative;
-  /* background-color: #fff; */
   width: 80%;
   margin: 0 auto;
   border-radius: 8px;
-  /* z-index: 1; */
 }
 
 .newsTitle {
@@ -70,6 +68,11 @@
     align-items: center;
     justify-content: center;
     z-index: -1;
+  }
+
+  .about {
+    width: 100%;
+    margin: 0 auto;
   }
 
   .newsLink {

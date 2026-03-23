@@ -70,7 +70,12 @@
 }
 
 @media (max-width: 640px) {
+  .container {
+    padding: 0 20px;
+  }
+
   .success {
     text-align: left;
   }
+
 }
