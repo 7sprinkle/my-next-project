@@ -4,6 +4,7 @@ import { getNewsList } from "./_libs/microcms";
 import { TOP_NEWS_LIMIT } from "./_constants";
 import NewsList from "./_componets/NewsList";
 import About from "./_componets/About";
+import Opening from "./_componets/Opening";
 import ContactForm from "./_componets/ContactForm";
 import ButtonLink from "./_componets/ButtonLink";
 import { News } from "@/app/_libs/microcms";
@@ -16,6 +17,7 @@ export default async function Home() {
       {/* opening */}
       <section className={styles.top} >
         <Image className={styles.bgimg} src="/bg-index.jpg" alt="" width={4000} height={1200} priority sizes="100vw" />
+        <Opening />
       </section>
       {/* about */}
       <section className={styles.about} >

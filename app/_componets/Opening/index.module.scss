@@ -1,0 +1,38 @@
+.block {
+    padding: 10%;
+}
+
+#text {
+    mask: url(#mask);
+}
+
+.handwriting {
+    width: 100%;
+    height: auto;
+
+    &_text {
+        fill: #fff;
+    }
+
+    &_mask {
+        &_line {
+            fill: none;
+            stroke: #fff;
+            stroke-width: 7;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-dasharray: 4000px;
+            animation: handwriting 4s linear infinite;
+        }
+    }
+}
+
+@keyframes handwriting {
+    0% {
+        stroke-dashoffset: 4000px;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
