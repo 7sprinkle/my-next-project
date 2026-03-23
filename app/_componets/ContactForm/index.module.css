@@ -1,6 +1,7 @@
-.form {
-  max-width: 600px;
-  margin: 0 auto;
+.container {
+  color: #fff;
+  max-width: 1000px;
+  margin: 10rem auto;
 }
 
 .item {
@@ -8,6 +9,7 @@
   flex-direction: column;
   flex: 1;
   padding: 8px 0;
+  margin: 10px 0;
 }
 
 .horizontal {
@@ -20,6 +22,7 @@
 
 .label {
   font-size: 14px;
+  line-height: 3;
 }
 
 .textfield {
