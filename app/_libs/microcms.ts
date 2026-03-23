@@ -5,6 +5,7 @@ export type Member = {
   name: string;
   position: string;
   profile: string;
+  profile_en: string;
   image: MicroCMSImage;
 } & MicroCMSListContent;
 
