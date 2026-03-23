@@ -29,7 +29,8 @@
   margin-bottom: 8px;
 }
 
-.profile {
+.profile,
+.profile_en {
   font-size: 0.9rem;
 }
 

@@ -20,6 +20,8 @@ export default async function About() {
                 <dd className={styles.name}>{member.name}</dd>
                 <dd className={styles.position}>{member.position}</dd>
                 <dd className={styles.profile}>{member.profile}</dd>
+                <br></br>
+                <dd className={styles.profile_en}>{member.profile_en}</dd>
               </dl>
             </li>
           ))}

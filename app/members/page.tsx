@@ -20,7 +20,8 @@ export default async function Page() {
                 <dd className={styles.name}>{member.name}</dd>
                 <dd className={styles.position}>{member.position}</dd>
                 <dd className={styles.profile}>{member.profile}</dd>
-                <dd className={styles.profile}>{member.profile_en}</dd>
+                <br></br>
+                <dd className={styles.profile_en}>{member.profile_en}</dd>
               </dl>
             </li>
           ))}
