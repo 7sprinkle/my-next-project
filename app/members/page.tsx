@@ -15,7 +15,7 @@ export default async function Page() {
         <ul>
           {data.contents.map((member) => (
             <li key={member.id} className={styles.list}>
-              <Image src={member.image.url} alt="profile" width="260" height="260" />
+              <Image className={styles.images} src={member.image.url} alt="profile" width="320" height="320" />
               <dl>
                 <dd className={styles.name}>{member.name}</dd>
                 <dd className={styles.position}>{member.position}</dd>
