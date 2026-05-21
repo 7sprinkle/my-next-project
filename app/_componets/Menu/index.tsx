@@ -24,6 +24,16 @@ export default function Menu() {
           <li>
             <Link href="/contact">Contact</Link>
           </li>
+          <li>
+            <Link href="https://www.instagram.com/qitengyuxi0507/" target="_blank">
+              <Image src="/Instagram_Glyph_White.png" alt="Instagram" width={24} height={24} />
+            </Link>
+          </li>
+          <li>
+            <Link href="https://www.cizucu.com/users/g1LbireVs0PENeWGSDTsVRBvy2C3" target="_blank">
+              <Image src="/cizucu_white.png" alt="cizucu" width={24} height={24} />
+            </Link>
+          </li>
         </ul>
         <button className={cx(styles.button, styles.close)} onClick={close}>
           <Image src="/close.svg" alt="閉じる" width={24} height={24} priority />
