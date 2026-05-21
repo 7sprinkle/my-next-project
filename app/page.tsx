@@ -17,7 +17,7 @@ export default async function Home() {
       {/* opening */}
       <section className={styles.top} >
         <Image className={styles.bgimg} src="/bg-index.jpg" alt="" width={4000} height={1200} priority sizes="100vw" />
-        <Opening />
+        {/* <Opening /> */}
       </section>
       {/* about */}
       <section className={styles.about} >
